@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meow </title>
+<link rel="stylesheet" href="s.css">
+   
+</head>
+<body>
+<div class="container">
+<h1>Meow</h1>
+<form action="dwa.php" method ="GET">     
+<label for="imie">Imię kociarza</label>
+<input type="text" id="imie" name="imie" required>
+<label for="Kotek">Imię kici: </label>
+<input type="text" id="Kotek" name="Kotek" required>
+
+    
+<label for="rasa">Czy twój kot jest jedna z popularniejszych ras?</label>
+<select id="rasa" name="rasa">
+    <option value="Main Coon">Main Coon</option>
+    <option value="Ragdoll">Radgoll</option>
+    <option value="Brytol">Brytol</option>
+    <option value="dachowiec">Dachowiec</option>
+    <option value="Syjamski">Syjamski</option>
+    <option value="perski">Perski</option>
+    <option value="Sfinks">Sfinks</option>
+    <option value="Norweski">Norweski</option>
+    <option value="syberyjski">Syberyjski</option>
+    <option value="RUDY">RUDY</option>
+    <option value="nie">nie</option>
+</select>
+<p>Czy Twój kot spi z toba?</p>
+<label><input type="radio" name="lozko" value="123"> tak bo to jego lozko</label>
+<label><input type="radio" name="lozko" value="124"> nie bo nie chce</label>
+<label><input type="radio" name="lozko" value="125"> nie bo ma zakaz (zakazy nie dotycza kotow)</label>
+<br><br>
+<input type="submit" value="Wyslij formularz o meow"><br><br>
+ </form>
+  <h2> Zdjęcie moich kici</h2>
+<img src="kotki.jpg" alt="Zdjęcie moich kotkow:">
+</div>
+</body>
+</html>
