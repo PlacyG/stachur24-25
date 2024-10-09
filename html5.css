@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 10px;
+ 
+}
+
+header{
+margin:5px ;
+background: #B8F5E7;
+border: 10px;
+flex: 1 1 100%;
+padding: 20px;
+}
+
+nav{
+    margin:5px;
+background: #F4C6B6;
+border: 10px;
+flex: 1 1 100%;
+padding: 20px;
+}
+aside {
+    
+    float: right;
+    background: #BEAFA9 ;
+    margin: 5px;
+    padding: 5px;
+    border: 10px;
+    flex: 1 1 100%;
+    }
+main{
+    float: right;
+    margin:5px;
+background: #73A095;
+border: 10px;
+flex: 1 1 100%;
+}
+main > section{
+    margin:5px;
+background: #754E41;
+border: 10px;
+flex: 1 1 100%;
+}
+
+main > article{
+    margin:5px;
+background: #1D4B40;
+border: 10px;
+flex: 1 1 100%;
+}
+
+aside {
+    float: left;
+background: #BEAFA9 ;
+height: 500px;
+width:
+}
+
+
+footer{
+    margin:5px;
+background: #91AAB5;
+border: 10px;
+flex: 1 1 100%;
+}
+
+
+ header, nav,section, article, footer{
+ 
+    padding: 20px;
+    margin: 2px;
+    border: solid black  2px;
+    flex: 1 1 100%;
+
+}
