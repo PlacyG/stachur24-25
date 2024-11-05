@@ -1,0 +1,27 @@
+img{
+    width: 100px;
+}
+
+
+.jeden {
+    :block;
+    width: 30%;
+    border: 12px red dotted;
+    float:left; 
+  }
+  
+.dwa{
+    :block;
+    position: relative;
+    width: 20%;
+    height: 100px;
+    top: 98%;
+    left:80%;
+    border: 5px rgb(48, 179, 184) solid;
+}
+.trzy{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    border: 5px rgb(48, 179, 184) solid;
+}

@@ -1,0 +1,63 @@
+img.s{
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+    width: 100px;
+    transform: scaleX(-1);
+    z-index: 1;
+}
+img.w{
+    position: relative;
+    width: 500px;
+    z-index: -1;
+}
+img.ff{
+    position: relative;
+    right: 610px;
+    width: 140px;
+    bottom: 60px;
+    transform: rotate(0deg);
+    transform: scaleX(-1);
+    z-index: 1;
+}
+img.bb{
+    position: relative; 
+    right: 700px;
+    bottom: 20px;
+    width: 100px;
+    z-index: 3;
+}
+
+
+
+ img.me{
+    position: relative;
+    right: 640px;
+    width: 200px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+img.d{
+    position: relative;
+    width: 150px;
+    left: 150px;
+    bottom: 150px;
+    z-index: 2;
+}
+/*
+img.f2{
+    position: relative;
+    left: 100px;
+    bottom: 250px;
+    width: 150px;
+    z-index: 2;
+}
+img.dom{
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+    width: 250px;
+    z-index: 2;
+}
+ */

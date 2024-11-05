@@ -152,7 +152,9 @@ c.strokeStyle = '#83A12F';
 c.moveTo(900,500);
 c.lineTo(900,100);
 c.moveTo(900,500);
-c.lineTo(14000,500);
+c.lineTo(1900,500);
+c.moveTo(900,500);
+c.lineTo(900,1000);
 c.stroke();
 
 
@@ -265,4 +267,57 @@ c.strokeStyle = 'black';
  c.strokeText('11', 1120, 215);
  c.strokeText('12', 1180, 196);
  c.stroke();
+ 
+
+ //rakieta jako 4 na wszelki
+
+//  c.beginPath();
+//  c.moveTo(1100,770);
+//  c.lineTo(1100,970);
+//  c.lineTo(1220,970);
+//  c.lineTo(1220,770);
+//  c.lineTo(1100,770);
+//  c.lineTo(1160,700);
+//  c.lineTo(1220,770);
+//  c.strokeStyle = 'blue';
+//  c.stroke();
+//  c.beginPath();
+//  c.moveTo(1160,700);
+//  c.lineTo(1160,600);
+//  c.lineTo(1210,620);
+//  c.lineTo(1160,600);
+//  c.lineTo(1110,620);
+//  c.lineTo(1160,700);
+//  c.lineTo(1210,620);
+//  c.strokeStyle = 'silver';
+//  c.stroke();
+
+//  c.beginPath();
+//  c.moveTo(1185,610)
+//  c.lineTo(1115,640);
+//  c.strokeStyle = 'silver';
+//  c.stroke();
+
+//  c.beginPath();
+//  c.moveTo(1120,970);
+//  c.lineTo(1100,1000);
+//  c.lineTo(1140,1000);
+//  c.lineTo(1120,970);
+//  c.moveTo(1200,970);
+//  c.lineTo(1220,1000);
+//  c.lineTo(1180,1000);
+//  c.lineTo(1200,970);
+//  c.strokeStyle = 'blue';
+//  c.stroke();
+
+//  c.beginPath()
+//  c.arc(1160,820,30,0,Math.PI*2);
+//  c.strokeStyle ='yellow';
+//  c.stroke();
+
+//  c.beginPath()
+//  c.arc(1160,910,30,0,Math.PI*2);
+//  c.strokeStyle ='yellow';
+//  c.stroke();
+
  
