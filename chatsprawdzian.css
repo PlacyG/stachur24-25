@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px;
+    color: #800000;
+    font-size: 17pt;
+    text-transform: uppercase;
+}
+
+#content {
+    display: flex;
+    padding: 20px;
+}
+
+#left {
+    flex: 1;
+    background-color: #ccffcc;
+    padding: 10px;
+}
+
+#right {
+    flex: 2;
+    background-color: #cce7ff;
+    padding: 10px;
+}
+
+/* Stylizacja formularza */
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form button {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#pilkarz{
+
+    border: #800000 inset  5px;
+
+}
+/* Stylizacja wyników */
+#results {
+    margin-top: 20px;
+}
+
+#results div {
+    margin-top: 10px;
+    border: 5px solid lightblue;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: right;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
